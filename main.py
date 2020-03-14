@@ -1,5 +1,8 @@
 import sys
-
+""" a simple python script that outputs whether there exists a one-to-one character mapping
+from s1 to s2. input should be given throught console. 
+Order of string matters, eg. s1="fbb" s2="ccd" will output false
+"""
 def main():
   #raise missing argument exception
   if len(sys.argv[1:]) < 2:
